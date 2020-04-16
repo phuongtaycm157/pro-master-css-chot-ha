@@ -2,9 +2,14 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+	
 }
 .banner {
-	display: flex;
+	display: none;
+	grid-column-start: 2;
 	align-items: center;
 	justify-content: space-between;
 	height: 70px;
@@ -80,4 +85,72 @@
 }
 .group-right .top-buttons .btn-register{
 	background-color: #66b4e4;
+}
+
+.top-button {
+	grid-column-start: 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+}
+.top-button .btn {
+	border: none;
+	width: 90px;
+	height: 50px;
+	font-size: 1rem;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+}
+.top-button .btns:focus {
+	outline: none;
+}
+.top-button .btn-login {
+	background-color: #f18121;
+}
+.top-button .btn-register{
+	background-color: #66b4e4;
+}
+
+.bg-banner {
+	background-color: #e16800;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.container {
+		display: grid;
+		grid-template-columns: auto 576px auto;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.container {
+		grid-template-columns: auto 768px auto;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.container {
+		grid-template-columns: auto 992px auto;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1199.98px) { 
+	.container {
+		grid-template-columns: auto 1200px auto;
+	}
+	.banner {
+		display: flex;
+	}
+	.top-button {
+		display: none;
+	}
+	.bg-banner {
+		background-color: #fff;
+	}
 }
