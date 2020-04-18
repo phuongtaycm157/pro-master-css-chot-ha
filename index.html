@@ -6,6 +6,7 @@
 	<title>Final Css</title>
 	<link rel="stylesheet" href="./Style/style.layout.css">
 	<link rel="stylesheet" href="./Style/style.banner.css">
+	<link rel="stylesheet" href="./Style/style.navbar.css">
 	<style>
 	</style>
 </head>
@@ -44,7 +45,29 @@
 	</div>
 	
 
+	<div class="container bg-container-color">
+		<div class="navbar">
+			<a href="#" class="navbar-item">Trang chủ</a>
+			<div class="navbar-item has-dropdown">
+				<span>Thể loại <i class="fas fa-caret-down"></i></span>
+				<div class="dropdown" id="kindDropdown">
+					
+				</div>
+			</div>
+			<div class="navbar-item has-dropdown">
+				<span>Sắp xếp <i class="fas fa-caret-down"></i></span>
+				<div class="dropdown" id="sortDropdown">
+					
+				</div>
+			</div>
+			<a href="#" class="navbar-item">Truyện con gái</a>
+			<a href="#" class="navbar-item">Truyện con trai</a>
+		</div>
+	</div>
+
 	<!-- script -->
-  <script src="https://kit.fontawesome.com/17d9afb30b.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="./Script/main.navbar.js"></script>
+	<script src="https://kit.fontawesome.com/17d9afb30b.js" crossorigin="anonymous"></script>
 
 </html>
