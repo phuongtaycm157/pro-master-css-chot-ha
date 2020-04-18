@@ -1,0 +1,116 @@
+* {
+	font-family: Roboto, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.trailer-grid {
+	grid-column: 2/3;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 35vw);
+	grid-auto-flow: column;
+}
+/*.item-a .highlight-card {
+	background-image: url(onepices.jpg);
+}
+.item-b .highlight-card {
+	background-image: url(thePromisedNeverland.jpg);
+}
+.item-c .highlight-card {
+	background-image: url(fairyteil.jpg);
+}
+.item-d .highlight-card {
+	background-image: url(kingdom.jpg);
+}
+.item-e .highlight-card {
+	background-image: url(Nanastu.jpg);
+}*/
+.highlight-card {
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
+.highlight-card a {
+	height: inherit;
+	width: inherit;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.highlight-card a > div {
+	color: white;
+}
+.item-a .highlight-card a div:first-child {
+	background-color: #ffb01f;
+}
+.item-b .highlight-card a div:first-child {
+	background-color: #2b68c7;
+}
+.item-c .highlight-card a div:first-child {
+	background-color: #ff3a3a;
+}
+.item-d .highlight-card a div:first-child {
+	background-color: #00c500;
+}
+.item-e .highlight-card a div:first-child {
+	background-color: #c600c6;
+}
+.highlight-card a div:first-child {
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.highlight-card a div:last-child {
+	font-weight: 500;
+	font-size: 1.2rem;
+	width: inherit;
+	height: auto;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	background: rgb(0,0,0);
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.8687850140056023) 0%, rgba(46,47,47,0.29175420168067223) 64%, rgba(138,140,140,0) 100%);
+	background: -o-linear-gradient(bottom, rgba(0,0,0,0.8687850140056023) 0%, rgba(46,47,47,0.29175420168067223) 64%, rgba(138,140,140,0) 100%);
+	background: linear-gradient(to top, rgba(0,0,0,0.8687850140056023) 0%, rgba(46,47,47,0.29175420168067223) 64%, rgba(138,140,140,0) 100%);
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.trailer-grid {
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-template-rows: 14vw 14vw;
+		grid-column-gap: 3px;
+		grid-row-gap: 5px;
+	}
+	.item-c {
+		grid-row: 1/3;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.trailer-grid {
+		
+		grid-template-rows: 12vw 12vw;
+		grid-column-gap: 5px;
+		grid-row-gap: 5px;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.trailer-grid {
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-template-rows: 10vw 10vw;
+		grid-column-gap: 5px;
+		grid-row-gap: 10px;
+	}
+}
