@@ -1,0 +1,118 @@
+* {
+	font-family: Roboto, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.title-section {
+	grid-column: 2/3;
+	margin-bottom: 20px;
+}
+.title-section i, .title-section span {
+	color: #56ccf2;
+	font-weight: 500;
+	font-size: 1.5rem;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.card-section {
+	grid-column: 2/3;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card {
+	width: 48vw;
+	height: 72vw;
+	margin-bottom: 10px;
+}
+.card a:first-child div {
+	width: inherit;
+	height: 80%;
+	background-image: url(../images/manga4.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+.card a:first-child span {
+	display: inline-block;
+	color: white;
+	background-color: #56ccf2;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: .8rem;
+	margin: 5px 0 0 0;
+	position: relative;
+	left: -40px;
+}
+.card a:first-child + div {
+	text-align: center;
+	margin-top: 10px;
+}
+.card div:last-child {
+	text-align: center;
+	font-weight: 300;
+	font-size: .8rem;
+}
+.card a:first-child + div a,
+.card div:last-child a {
+	text-decoration: none;
+	color: black;
+	transition: .2s;
+}
+.card a:first-child + div a:hover,
+.card div:last-child a:hover {
+	color: #f18121;
+}
+
+.more-page {
+	margin-top: 20px;
+	grid-column: 2/3;
+	display: flex;
+	justify-content: center;
+}
+.more-page button {
+	border: none;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 1.2rem;
+	padding: 12px 20px;
+	background-color: #f18121;
+	color: white;
+	cursor: pointer;
+	transition: .3s;
+}
+.more-page button:hover {
+	background-color: #eeb686
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.card {
+		width: 190px;
+		height: 300px;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.card {
+		width: 190px;
+		height: 300px;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.card {
+		width: 150px;
+		height: 225px;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.card {
+		width: 190px;
+		height: 300px;
+	}
+}

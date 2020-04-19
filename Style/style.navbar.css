@@ -4,7 +4,8 @@
 	margin: 0;
 }
 body {
-	overflow: hidden;
+	overflow-x: hidden;
+	background-color: #ebebeb;
 }
 .bg-container-color {
 	background-color: #f18121;
