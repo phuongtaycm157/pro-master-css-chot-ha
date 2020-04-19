@@ -1,0 +1,54 @@
+* {
+	font-family: Roboto, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.bg-white {
+	background-color: white;
+	margin-top: 30px
+}
+.footer {
+	grid-column: 2/3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+}
+.footer div:last-child a:first-child {
+	background-image: url(../images/app-store.png);
+}
+.footer div:last-child a:last-child {
+	background-image: url(../images/google-play.png);
+}
+.footer div:last-child a {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.footer {
+		flex-direction: row;
+		height: 60px;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}

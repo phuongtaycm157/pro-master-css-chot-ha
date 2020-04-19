@@ -1,0 +1,304 @@
+{
+    "kind": [{
+        "id": 0,
+        "name": "Action"
+    }, {
+        "id": 1,
+        "name": "Adult"
+    }, {
+        "id": 2,
+        "name": "Adventure"
+    }, {
+        "id": 3,
+        "name": "Anime"
+    }, {
+        "id": 4,
+        "name": "Chuyển Sinh"
+    }, {
+        "id": 5,
+        "name": "Cổ Đại"
+    }, {
+        "id": 6,
+        "name": "Comedy"
+    }, {
+        "id": 7,
+        "name": "Comic"
+    }, {
+        "id": 8,
+        "name": "Demons"
+    }, {
+        "id": 9,
+        "name": "Detective"
+    }, {
+        "id": 10,
+        "name": "Doujinshi"
+    }, {
+        "id": 11,
+        "name": "Drama"
+    }, {
+        "id": 12,
+        "name": "Đam Mỹ"
+    }, {
+        "id": 13,
+        "name": "Ecchi"
+    }, {
+        "id": 14,
+        "name": "Fantasy"
+    }, {
+        "id": 15,
+        "name": "Gender Bender"
+    }, {
+        "id": 16,
+        "name": "Harem"
+    }, {
+        "id": 17,
+        "name": "Historical"
+    }, {
+        "id": 18,
+        "name": "Horror"
+    }, {
+        "id": 19,
+        "name": "Huyền Huyễn"
+    }, {
+        "id": 20,
+        "name": "Isekai"
+    }, {
+        "id": 21,
+        "name": "Josei"
+    }, {
+        "id": 22,
+        "name": "Mafia"
+    }, {
+        "id": 23,
+        "name": "Magic"
+    }, {
+        "id": 24,
+        "name": "Manhua"
+    }, {
+        "id": 25,
+        "name": "Manhwa"
+    }, {
+        "id": 26,
+        "name": "Martial Arts"
+    }, {
+        "id": 27,
+        "name": "Mature"
+    }, {
+        "id": 28,
+        "name": "Military"
+    }, {
+        "id": 29,
+        "name": "Mystery"
+    }, {
+        "id": 30,
+        "name": "Ngôn Tình"
+    }, {
+        "id": 31,
+        "name": "One shot"
+    }, {
+        "id": 32,
+        "name": "Psychological"
+    }, {
+        "id": 33,
+        "name": "Romance"
+    }, {
+        "id": 34,
+        "name": "School Life"
+    }, {
+        "id": 35,
+        "name": "Sci-fi"
+    }, {
+        "id": 36,
+        "name": "Seinen"
+    }, {
+        "id": 37,
+        "name": "Shoujo"
+    }, {
+        "id": 38,
+        "name": "Shoujo Ai"
+    }, {
+        "id": 39,
+        "name": "Shounen"
+    }, {
+        "id": 40,
+        "name": "Shounen Ai"
+    }, {
+        "id": 41,
+        "name": "Slice of life"
+    }, {
+        "id": 42,
+        "name": "Smut"
+    }, {
+        "id": 43,
+        "name": "Sports"
+    }, {
+        "id": 44,
+        "name": "Supernatural"
+    }, {
+        "id": 45,
+        "name": "Tragedy"
+    }, {
+        "id": 46,
+        "name": "Trọng Sinh"
+    }, {
+        "id": 47,
+        "name": "Truyện Màu"
+    }, {
+        "id": 48,
+        "name": "Webtoon"
+    }, {
+        "id": 49,
+        "name": "Xuyên Không"
+    }, {
+        "id": 50,
+        "name": "Yaoi"
+    }, {
+        "id": 51,
+        "name": "Yuri"
+    }],
+    "sort": [{
+        "id": 0,
+        "name": "Top Ngày"
+    }, {
+        "id": 1,
+        "name": "Top Tuần"
+    }, {
+        "id": 2,
+        "name": "Top Tháng"
+    }, {
+        "id": 3,
+        "name": "Yêu Thích"
+    }, {
+        "id": 4,
+        "name": "Mới Cập Nhật"
+    }, {
+        "id": 5,
+        "name": "Truyện Mới"
+    }, {
+        "id": 6,
+        "name": "Truyện Full"
+    }],
+    "mangas": [
+        {
+            "id": 1,
+            "name": "Bang Chủ Đại Nhân Tìm Cách Trị Hói Đầu",
+            "author": "Đang cập nhật",
+            "state": "Đang cập nhật",
+            "picture": "./images/manga1.jpg",
+            "statistics": {
+                "view": 8226,
+                "like": 34,
+                "follow": 178
+            },
+            "brief": "Ta rõ ràng anh tuấn, tiêu sái, vậy mà bị hói. Để không bị giang hồ và bang chúng xem thường, ta nhất định phải tìm cách để mọc tóc!",
+            "totalChapter": "2",
+            "kind": [6, 24, 47]
+        },
+        {
+            "id": 2,
+            "name": "Anh Trai Ma Cà Rồng Và Bạn Trai Người Sói Của Tôi",
+            "author": "Đang cập nhật",
+            "state": "Đang cập nhật",
+            "picture": "./images/manga2.jpg",
+            "statistics": {
+                "view": 38548,
+                "like": 240,
+                "follow": 846
+            },
+            "brief": "Năm đó, tôi mất đi cha của mình. Người anh trai vẫn luôn thương yêu tôi bỗng trở nên xa lạ hơn bao giờ hết. Sau hết thảy mọi chuyện, người đàn ông lạ mặt đó xuất hiện trong cuộc đời của tôi...... nhưng mà tại sao, sao anh trai lại đối xử với tôi như kẻ địch vậy? Cha, anh trai, quản gia và cả người đàn ông đấy..... bọn họ đều cất giấu bí mật của riêng mình. Mà tôi chỉ muốn khám phá tất cả các bí mật này, sau đó đi tìm kiếm những gì mà tôi muốn",
+            "totalChapter": "3",
+            "kind": [24, 33, 30, 5, 47]
+        },
+        {
+            "id": 3,
+            "name": "Lượm Được Một Tiểu Hồ Ly 3",
+            "author": "Đang cập nhật",
+            "state": "Đang cập nhật",
+            "picture": "./images/manga3.jpg",
+            "statistics": {
+                "view": 337724,
+                "like": 606,
+                "follow": 2108
+            },
+            "brief": "Các phần trước:",
+            "totalChapter": "2.1",
+            "kind": [6, 24, 33, 30, 47]
+        },
+        {
+            "id": 4,
+            "name": "Clover",
+            "author": "Đang cập nhật",
+            "state": "Đang cập nhật",
+            "picture": "./images/manga4.jpg",
+            "statistics": {
+                "view": 439347,
+                "like": 138,
+                "follow": 553
+            },
+            "brief": "Hayato, kenji và tomoki là bạn thân từ nhỏ! Sau đó hayato chuyển về quê sống với người thân! Đến khi hayato gặp lại họ thì mọi thứ đều đổi thay nhưng tình bạn vẫn không thay đổi! Nhưng vào ngôi trường mới có những kẻ không ưa họ cũng như kiếm chuyện, hayato đã đứng ra bảo vệ và ngày càng kiếm được nhiều bạn bè….",
+            "totalChapter": "1",
+            "kind": [0, 6]
+        },
+        {
+            "id": 5,
+            "name": "Làm Vợ Anh, Em Nhé",
+            "author": "Đang cập nhật",
+            "state": "Đang cập nhật",
+            "picture": "./images/manga5.jpg",
+            "statistics": {
+                "view": 1311,
+                "like": 8,
+                "follow": 48
+            },
+            "brief": "Nhằm làm gia tăng tỉ lệ sinh và hỗ trợ những người trẻ tuổi thất nghiệp, không được học hành và sống khép kín với xã hội (NEET), chính phủ Nhật Bản đã thông qua bộ luật bảo vệ NEET. Nội dung của bộ luật là đưa những bạn trẻ sống tách biệt với xã hội tái hòa nhập cộng đồng thông qua con đường hôn nhân. AKIYASU SINN - một công chức viên trẻ tuổi được chọn làm đối tượng thử nghiệm đầu tiên của bộ luật này, cậu phải tìm cách thuyết phục SAWAMOTO MARI kết hôn với mình và khiến cho cô ấy hạnh phúc.",
+            "totalChapter": "5",
+            "kind": [6, 33, 37, 48, 47]
+        }
+    ],
+    "chapters": [
+        {
+            "id": 1,
+            "mangaId": 1,
+            "chapters": {
+                "1": ["./images/manga1-chapter1-page1.jpg", "./images/manga1-chapter1-page2.jpg", "./images/manga1-chapter1-page3.jpg", "./images/manga1-chapter1-page4.jpg"],
+                "2": ["./images/manga1-chapter2-page1.jpg", "./images/manga1-chapter2-page2.jpg", "./images/manga1-chapter2-page3.jpg"]
+            }
+        },
+        {
+            "id": 2,
+            "mangaId": 2,
+            "chapters": {
+                "1": ["./images/manga1-chapter1-page1.jpg", "./images/manga1-chapter1-page2.jpg", "./images/manga1-chapter1-page3.jpg", "./images/manga1-chapter1-page4.jpg"],
+                "2": ["./images/manga1-chapter2-page1.jpg", "./images/manga1-chapter2-page2.jpg", "./images/manga1-chapter2-page3.jpg"],
+                "3": []
+            }
+        },
+        {
+            "id": 3,
+            "mangaId": 3,
+            "chapters": {
+                "1": ["./images/manga1-chapter1-page1.jpg", "./images/manga1-chapter1-page2.jpg", "./images/manga1-chapter1-page3.jpg", "./images/manga1-chapter1-page4.jpg"],
+                "2": ["./images/manga1-chapter2-page1.jpg", "./images/manga1-chapter2-page2.jpg", "./images/manga1-chapter2-page3.jpg"],
+                "2.1": []
+            }
+        },
+        {
+            "id": 4,
+            "mangaId": 4,
+            "chapters": {
+                "1": ["./images/manga1-chapter1-page1.jpg", "./images/manga1-chapter1-page2.jpg", "./images/manga1-chapter1-page3.jpg", "./images/manga1-chapter1-page4.jpg"]
+            }
+        },
+        {
+            "id": 5,
+            "mangaId": 5,
+            "chapters": {
+                "1": ["./images/manga1-chapter1-page1.jpg", "./images/manga1-chapter1-page2.jpg", "./images/manga1-chapter1-page3.jpg", "./images/manga1-chapter1-page4.jpg"],
+                "2": ["./images/manga1-chapter2-page1.jpg", "./images/manga1-chapter2-page2.jpg", "./images/manga1-chapter2-page3.jpg"],
+                "3": [],
+                "4": [],
+                "5": []
+            }
+        }
+    ]
+}
