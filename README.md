@@ -13,4 +13,4 @@ After that start database by port 8009:
 json-server --watch db.json --port 8009
 ```
 ## Firebase hosting
-...
+https://static-project-demo.web.app
